@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+header {
+    display: flex;
+    align-items: center;
+    background: #184A45FF;
+    height: 10vh;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    margin: 0 30px;
+    color: #B0B8B4FF;
+}
+h2 {
+    margin: 0;
+}
+#project-div {
+    background: #FC766AFF;
+    height: 90vh;
+    width: 270px;
+    float: left;
+    text-align: center;
+    color: #184A45FF;   
+}
+#todolist-div {
+    background: #B0B8B4FF;
+    height: 90vh;
+    text-align: center;
+    color: #FC766AFF;
+}
+#project-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#new-project-input {
+    height: 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+input:focus {
+    background: rgb(199, 197, 197);
+}
+#new-project-button {
+    height: 25px;
+    width: auto;
+    margin: 0 0 0 10px;
+}
+#new-project-button:hover {
+    transform: scale(1.1);
+}
+#new-project-button:active {
+    transform: translateY(2px);
+}
+#activeList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px black solid;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px;
+    padding: 0 10px;
+}
+#activeList:active {
+    transform: translateY(2px);
+}
+.delete-button {
+    content: url("delete-icon.png");
+    height: 20px;
+    width: auto;
+    margin: 5px;
+}
+.delete-button:hover {
+    transform: scale(1.1);
+}
+#add-task-button {
+    content: url("add-icon.png");
+    height: 25px;
+    width: auto;
+}
+#add-task-div {
+    text-align: center;
+}
+#add-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#new-task-input {
+    height: 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    width: 700px;
+    margin: 0 20px;
+}
+input:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input {
+    border: none;
+    outline: none;
+    font-family: 'Roboto Mono', monospace;
+}
+#add-task-button {
+    margin: 0 10px;
+}
+#add-task-button:hover {
+    transform: scale(1.1);
+}
+#add-task-button:active {
+    transform: translateY(2px);
+}
+#active-task-div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 4px;
+    margin: 10px;
+    width: 700px;
+}
+#active-task-div:hover {
+    background-image: url("trash-icon.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px auto;
+    display: block;
+}
+.MainTaskList {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

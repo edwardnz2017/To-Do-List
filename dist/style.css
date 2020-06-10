@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    align-items: center;
+    background: paleturquoise;
+    height: 80px;
+}
+body {
+    margin: 0;
+}
+h1 {
+    margin: 0 30px;
+}
+h2 {
+    margin: 0;
+}
+#project-div {
+    background: palegreen;
+    height: 100vh;
+    width: 270px;
+    float: left;
+    text-align: center;
+}
+#todolist-div {
+    background: palevioletred;
+    height: 100vh;
+}
+#project-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#new-project-input {
+    height: 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+input:focus {
+    transform: scale(1.1);
+    background: rgb(199, 197, 197);
+}
+#new-project-button {
+    height: 25px;
+    width: auto;
+    margin: 0 0 0 10px;
+}
+#new-project-button:hover {
+    transform: scale(1.1);
+}
+#new-project-button:active {
+    transform: translateY(2px);
+}
+#activeList {
+    display: flex;
+    align-items: center;
+    border: 1px red solid;
+}
